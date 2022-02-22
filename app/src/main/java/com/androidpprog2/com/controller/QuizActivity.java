@@ -1,4 +1,4 @@
-package com.androidpprog2.com;
+package com.androidpprog2.com.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,8 +8,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.androidpprog2.com.R;
 
-public class MainActivity extends AppCompatActivity {
+
+public class QuizActivity extends AppCompatActivity {
 
     //Creacion de los Button's
     private Button mTrueButton;
