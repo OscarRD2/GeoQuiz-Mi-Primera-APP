@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.androidpprog2.com.R;
+import com.androidpprog2.com.model.Question;
 
 
 public class QuizActivity extends AppCompatActivity {
@@ -16,6 +17,23 @@ public class QuizActivity extends AppCompatActivity {
     //Creacion de los Button's
     private Button mTrueButton;
     private Button mFalseButton;
+    private Button mPreviousButton;
+    private Button mNextButton;
+    //private TextView mQuestionTextView;
+
+    //Array de preguntas
+    private Question[] mQuestionBank = new Question[]{
+      new Question(R.string.question_muralla,false),
+            new Question(R.string.question_Zuckerberg,true),
+            new Question(R.string.question_conejos,false),
+            new Question(R.string.question_reloj,true),
+            new Question(R.string.question_hormigas,false),
+            new Question(R.string.question_Charles,true),
+    };
+
+
+    private int mCurrentIndex = 0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

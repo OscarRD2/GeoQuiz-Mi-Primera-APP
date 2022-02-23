@@ -6,4 +6,12 @@ Australia.</string>
     <string name="false_button">False</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
+
+    <string name="question_muralla">La Gran Muralla China es la única obra construida por el hombre visible a simple vista desde el espacio?</string>
+    <string name="question_Zuckerberg">Mark Zuckerberg es daltónico. El fondo de Facebook es azul porque es el color que puede distinguir mejor?</string>
+    <string name="question_conejos">Los conejos son roedores?</string>
+    <string name="question_hormigas">Las hormigas sólo duermen durante el invierno?</string>
+    <string name="question_reloj">Los relojes con números romanos muestran el número 4 como IIII en lugar de IV? TRUE</string>
+    <string name="question_Charles">El estadounidense Charles Osborne tuvo hipo durante 69 años? TRUE</string>
+
 </resources>
