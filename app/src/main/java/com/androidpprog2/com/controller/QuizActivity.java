@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.androidpprog2.com.R;
@@ -19,7 +20,7 @@ public class QuizActivity extends AppCompatActivity {
     private Button mFalseButton;
     private Button mPreviousButton;
     private Button mNextButton;
-    //private TextView mQuestionTextView;
+    private TextView mQuestionTextView;
 
     //Array de preguntas
     private Question[] mQuestionBank = new Question[]{
@@ -39,6 +40,15 @@ public class QuizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        //mQuestionTextView=(TextView) findViewById(R.id.question_text_viw);
+        //mQuestionTextView.setText(R.string.question_muralla);
+
+
+
+
+
 
         //Vinculamos los Buttons con la View, referenciandolos con el id
         mTrueButton = (Button) findViewById(R.id.true_button);
