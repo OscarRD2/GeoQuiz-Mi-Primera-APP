@@ -2,27 +2,27 @@ package com.androidpprog2.com.model;
 
 public class Question {
 
-private int TextResId;
-private boolean AnswerTrue;
+    private int mTextResId;
+    private boolean answer;
 
-    public Question(int textResId, boolean answerTrue) {
-        TextResId = textResId;
-        AnswerTrue = answerTrue;
+    public Question(int mTextResId, boolean answer) {
+        this.mTextResId = mTextResId;
+        this.answer = answer;
     }
 
-    public int getTextResId() {
-        return TextResId;
+    public int getmTextResId() {
+        return mTextResId;
     }
 
-    public void setTextResId(int textResId) {
-        TextResId = textResId;
+    public void setmTextResId(int mTextResId) {
+        this.mTextResId = mTextResId;
     }
 
-    public boolean isAnswerTrue() {
-        return AnswerTrue;
+    public boolean isAnswer() {
+        return answer;
     }
 
-    public void setAnswerTrue(boolean answerTrue) {
-        AnswerTrue = answerTrue;
+    public void setAnswer(boolean answer) {
+        this.answer = answer;
     }
 }
